@@ -1,2 +1,0 @@
-# cv
-cv landing page 
