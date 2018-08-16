@@ -1,3 +1,4 @@
+
 .App {
   text-align: center; }
 
@@ -11,14 +12,19 @@
 
 .App-title {
   font-size: 4em;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
-header {
-  height: 500px; }
 
-.no-animation {
-  animation: none; }
+header
+{
+  height: 500px;
+}
 
+
+.no-animation{
+  animation: none;
+}
 .App-intro {
   font-size: large; }
 
