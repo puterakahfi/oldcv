@@ -16,6 +16,7 @@ class App extends Component {
           <img src={logo} className="App-logo" alt="logo" />
           <img src={vue} className="App-logo no-animation" alt="logo" />
           <img src={sass} className="App-logo no-animation" alt="logo" />
+          <img src="/php.png" className="App-logo no-animation" alt="logo" />
 
           <h1 className="App-title">Putera Kahfi</h1>
           <h2>Web Developer</h2>
