@@ -1,55 +1,55 @@
 import React, { Component } from "react";
 import "./styles/OrbitSkill.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import  * as Brand  from "@fortawesome/free-brands-svg-icons";
+import * as brands  from "@fortawesome/free-brands-svg-icons";
 import * as Solid from "@fortawesome/free-solid-svg-icons";
 
 class OrbitSkill extends Component {
   render() {
     return (
-      <div class="orbit">
-        <ul class="orbit-wrap">
-          <li class="orbit-center">
-            <i class="orbit-center__icon ">
+      <div className="orbit">
+        <ul className="orbit-wrap">
+          <li className="orbit-center">
+            <i className="orbit-center__icon ">
               <FontAwesomeIcon icon={Solid.faCode} />
             </i>
           </li>
 
           <li>
-            <ul class="ring-2">
+            <ul className="ring-2">
               <li>
-                <i class="orbit-icon fa-vue">
-                  <FontAwesomeIcon icon={Brand.faVuejs} />
+                <i className="orbit-icon fa-vue">
+                  <FontAwesomeIcon icon={brands} />
                 </i>
               </li>
               <li>
-                <i class="orbit-icon">
-                  <FontAwesomeIcon icon={Brand.faReact} />
+                <i className="orbit-icon">
+                  <FontAwesomeIcon icon={brands} />
                 </i>
               </li>
 
               <li>
-                <i class="orbit-icon">
-                  <FontAwesomeIcon icon={Brand.fa} />
+                <i className="orbit-icon">
+                  <FontAwesomeIcon icon={brands} />
                 </i>
               </li>
             </ul>
           </li>
           <li>
-            <ul class="ring-3">
+            <ul className="ring-3">
               <li>
-                <i class="orbit-icon fa-php">
-                  <FontAwesomeIcon icon={Brand.faPhp} />
+                <i className="orbit-icon fa-php">
+                  <FontAwesomeIcon icon={brands.faPhp} />
                 </i>
               </li>
               <li>
-                <i class="orbit-icon">
-                  <FontAwesomeIcon icon={Brand.faLaravel} />
+                <i className="orbit-icon">
+                  <FontAwesomeIcon icon={brands.faLaravel} />
                 </i>
               </li>
               <li>
-                <i class="orbit-icon">
-                  <FontAwesomeIcon icon={Brand.faJava} />
+                <i className="orbit-icon">
+                  <FontAwesomeIcon icon={brands.faJava} />
                 </i>
               </li>
             </ul>

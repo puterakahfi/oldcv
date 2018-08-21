@@ -2,8 +2,8 @@ import React, { Component } from "react";
 
 import "./styles/Header.css";
 
-import OrbitSkill from "../molecules/OrbitSkill";
 import TechnologyStack from "../molecules/TechnologyStack";
+import OrbitSkill from "../molecules/OrbitSkill";
 
 class Header extends Component {
   render() {
@@ -27,6 +27,7 @@ class Header extends Component {
            
           </div>
           <div className="col-md-5">
+          <OrbitSkill />
           </div>
         </div>
       </header>
