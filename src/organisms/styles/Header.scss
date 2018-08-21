@@ -1,0 +1,44 @@
+header {
+  height: 500px;
+  text-align: left;
+
+  hr {
+    width: 82px;
+    color: white;
+    border-color: white;
+    border-width: 10px;
+    text-align: left;
+    margin-left: 0px;
+  }
+
+  #short-desc {
+    margin: 20px 0px;
+  }
+  #logo {
+    display: block;
+  }
+  .title {
+    font-weight: bold;
+    font-size: 5em;
+    text-align: left;
+    line-height: 90px;
+    margin: 50px 0px 20px 0px;
+    color: white;
+    text-transform: uppercase;
+  }
+  h2 {
+    font-size: 2rem;
+    font-weight: bolder;
+    color: whitesmoke;
+  }
+  h6{
+    font-weight: bold;
+  }
+
+  .no-animation {
+    animation: none;
+  }
+  .App-intro {
+    font-size: large;
+  }
+}

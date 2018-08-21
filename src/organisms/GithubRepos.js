@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import * as Brand from "@fortawesome/free-brands-svg-icons";
 import axios from 'axios';
+import "./styles/GithubRepos.css";
 
 
 class GithubRepos extends Component {
@@ -12,7 +13,7 @@ class GithubRepos extends Component {
   }
 
   componentDidMount(){
-    axios.get(`https://api.github.com/users/puterakahfi/repos`)
+    axios.get(`https://api.github.com/users/puterakahfi/events`)
     .then(res => {
       const githubRepositories = res.data;
       this.setState({ githubRepositories });
@@ -21,12 +22,12 @@ class GithubRepos extends Component {
   render() {
     return (
        
-        <div className="container">
+        <div className="container" id="github-repos">
 
           <h3> <FontAwesomeIcon icon={Brand.faGithub} /> Github Activities</h3>
 
            <ul>
-        { this.state.githubRepositories.map(repo => <li>{repo.name}</li>)}
+        { this.state.githubRepositories.map(repo => <li>{repo.type}</li>)}
          </ul>
 
 

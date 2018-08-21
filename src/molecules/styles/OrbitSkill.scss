@@ -13,20 +13,20 @@ html {
 .orbit {
   float: left;
   width: 100%;
-  min-width: 100vw;
-  min-height: 100vh;
+  // min-width: 100vw;
+  // min-height: 100vh;
 }
 
 .orbit-icon {
-  width: $orbitItemSize;
-  height: $orbitItemSize;
-  line-height: $orbitItemSize;
-  font-size: 1.2em;
-  border-radius: 50%;
-  background: #ccc;
-  color: #fff;
-  text-align: center;
-  display: block;
+	width: 1.6em;
+	height: 1.6em;
+	line-height: 1.6em;
+	font-size: 1.2em;
+	border-radius: 50%;
+	background: rgb(255, 255, 255);
+	color: #fff;
+	text-align: center;
+	display: block;
 }
 
 .orbit-wrap {
@@ -93,7 +93,7 @@ ul[class^=ring] {
 
 
 %ring {
-  border: solid 1px rgba(33, 150, 243, 0.8);
+  border: solid 1px rgb(255, 255, 255);
   position: relative;
   padding: 0;
   border-radius: 50%;
@@ -111,18 +111,16 @@ ul[class^=ring] {
   margin: -$orbitItemSize / 2;
 }
 
-/*
-  center;
-*/
 .orbit-center {
-  z-index: 5;
-  font-size: 2em;
-  width: 1.8em;
-  height: 1.8em;
-  line-height: 1.8em;
-  text-align: center;
-  background: hotpink;
-  border-radius: 50%;
+	z-index: 5;
+	font-size: 2em;
+	width: 1.8em;
+	height: 1.8em;
+	line-height: 1.8em;
+	text-align: center;
+	background: #1565C0;
+	border-radius: 50%;
+	color: whitesmoke;
   
   &:hover .orbit-center__icon {
     transform: rotateZ(0deg);
@@ -182,7 +180,9 @@ $icons : (
   ('free-code-camp', green, white),
   ('meetup', red, white),
   ('podcast', red, white),
-  ('codepen', #333, white)
+  ('codepen', #333, white),
+  ('php', #8E8AC0, white),
+  ('vue', #00C584, white),
 );
 
 @each $icon in $icons {
