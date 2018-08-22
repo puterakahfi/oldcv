@@ -12,12 +12,15 @@ import GithubRepos from "../organisms/GithubRepos";
 
 import { Container, Row, Col } from 'reactstrap';
 import Projects from "../organisms/Projects";
+import CodingSnapshot from "../molecules/CodingSnapshot";
+import FogEffects from "../molecules/FogEffects";
 
 
 class App extends Component {
   render() {
     return (
       <div className="App">
+      <FogEffects />
         <Header /> 
         
         <Container >
@@ -27,7 +30,7 @@ class App extends Component {
               </Col>
 
               <Col md="6">
-              <Projects />
+              <CodingSnapshot />
 
               </Col>
             </Row>

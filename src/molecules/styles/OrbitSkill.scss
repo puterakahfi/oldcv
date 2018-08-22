@@ -93,7 +93,7 @@ ul[class^=ring] {
 
 
 %ring {
-  border: solid 1px rgb(255, 255, 255);
+  border: dashed 1px rgb(255, 255, 255);
   position: relative;
   padding: 0;
   border-radius: 50%;
@@ -183,6 +183,7 @@ $icons : (
   ('codepen', #333, white),
   ('php', #8E8AC0, white),
   ('vue', #00C584, white),
+  ('laravel', #ec4d3a, white),
 );
 
 @each $icon in $icons {

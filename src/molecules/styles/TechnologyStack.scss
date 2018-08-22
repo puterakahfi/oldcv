@@ -4,11 +4,13 @@
 
   .App-logo {
     height: 45px;
-    margin: 0px 10px;
+    margin: 5px 10px;
     transition: all .3s ease-in-out; 
   }
 
-  .App-logo:hover { transform: scale(1.5); }
+  .App-logo:hover { 
+    transform: scale(1.5);
+   }
 
   .App-header {
     padding: 20px;

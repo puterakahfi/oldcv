@@ -50,16 +50,22 @@ class TechnologyStack extends Component
               alt="logo"
             />
             </a>
+
+            <a href="https://symfony.com" target="_blank">
             <img
               src="/symfony.png"
               className="App-logo no-animation"
               alt="logo"
             />
+            </a>
+
+            <a href="https://www.codeigniter.com" target="_blank">
             <img
               src="/codeigniter.png"
               className="App-logo no-animation"
-              alt="logo"
+              alt="logo" 
             />
+            </a>
           </div>
 
         );
