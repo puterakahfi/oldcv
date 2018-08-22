@@ -11,11 +11,12 @@ class Header extends Component {
       <header className="container header">
         <div className="row">
           <div className="col-md-6">
-            <h1 className="title">Putera Kahfi</h1>
 
             <hr />
-            <h2>Web Developer</h2>
-            <h6>// Web Designer // Frontend // Backend</h6>
+            <h1 className="title">Putera Kahfi</h1>
+
+            <h2>  Web Developer </h2>
+            <h5>// <a href="https://en.wikipedia.org/wiki/Web_design">Web Designer </a> // Frontend // Backend</h5>
 
             <p id="short-desc">
               Lorem ipsum is placeholder text commonly used in the graphic,
@@ -24,10 +25,9 @@ class Header extends Component {
             </p>
 
             <TechnologyStack />
-           
           </div>
           <div className="col-md-5">
-          <OrbitSkill />
+            <OrbitSkill />
           </div>
         </div>
       </header>

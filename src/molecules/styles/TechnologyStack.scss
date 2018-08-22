@@ -1,11 +1,15 @@
-#techology-stack
+#technology-stack
 {
 
 
   .App-logo {
-    height: 50px;
-    color: white;
+    height: 45px;
+    margin: 0px 10px;
+    transition: all .3s ease-in-out; 
   }
+
+  .App-logo:hover { transform: scale(1.5); }
+
   .App-header {
     padding: 20px;
     color: #222;

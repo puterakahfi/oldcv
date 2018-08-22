@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import './styles/TechnologyStack.css';
 
 
-
 class TechnologyStack extends Component
 {
 
@@ -12,27 +11,45 @@ class TechnologyStack extends Component
         return(
 
             <div id="technology-stack">
-            <img src="/logo.svg" className="App-logo" alt="logo" />
-            <img
+          
+          <a href="https://reactjs.org" target="__blank">
+          <img src="/react.png" className="App-logo" alt="logo" />
+          </a>
+
+          <a href="https://vuejs.org" target="__blank">
+          <img
               src="/vuejs.png"
               className="App-logo no-animation"
-              alt="logo"
-            />
-            <img
+              alt="logo" />
+
+          </a>
+           
+           <a href="https://sass-lang.com" target="_blank">
+           
+           <img
               src="/sass.png"
               className="App-logo no-animation"
               alt="logo"
             />
-            <img
+           </a>
+
+           <a href="http://php.net" target="_blank">
+           
+           <img
               src="/php.png"
               className="App-logo no-animation"
               alt="logo"
             />
+           </a>
+
+
+            <a href="https://laravel.com" target="_blank">
             <img
               src="/laravel.png"
               className="App-logo no-animation"
               alt="logo"
             />
+            </a>
             <img
               src="/symfony.png"
               className="App-logo no-animation"

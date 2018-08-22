@@ -1,6 +1,6 @@
 header {
-  height: 500px;
   text-align: left;
+  padding-top:50px;
 
   hr {
     width: 82px;
@@ -12,7 +12,7 @@ header {
   }
 
   #short-desc {
-    margin: 20px 0px;
+    margin: 20px 0px; 
   }
   #logo {
     display: block;
@@ -21,13 +21,13 @@ header {
     font-weight: bold;
     font-size: 5em;
     text-align: left;
-    line-height: 90px;
-    margin: 50px 0px 20px 0px;
+    line-height: 70px;
+    margin: 0px;
     color: white;
-    text-transform: uppercase;
   }
   h2 {
-    font-size: 2rem;
+    margin-top: 20px;
+    font-size: 2.5rem;
     font-weight: bolder;
     color: whitesmoke;
   }

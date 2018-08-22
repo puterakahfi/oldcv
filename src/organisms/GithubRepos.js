@@ -27,7 +27,7 @@ class GithubRepos extends Component {
           <h3> <FontAwesomeIcon icon={Brand.faGithub} /> Github Activities</h3>
 
            <ul>
-        { this.state.githubRepositories.map(repo => <li>{repo.type}</li>)}
+        { this.state.githubRepositories.map(repo => console.log(repo))}
          </ul>
 
 
