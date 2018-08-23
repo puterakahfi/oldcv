@@ -20,7 +20,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <FogEffects />
         <Header /> 
         
         <Container >
@@ -30,7 +29,7 @@ class App extends Component {
               </Col>
 
               <Col md="6">
-              <CodingSnapshot />
+              <CodingSnapshot title="Coding Activity" />
 
               </Col>
             </Row>

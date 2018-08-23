@@ -5,67 +5,41 @@ import './styles/TechnologyStack.css';
 class TechnologyStack extends Component
 {
 
+  constructor(props) {
+    super(props);
+    var stack = [
+      {icon:'react.png',url:'https://reactjs.org/'},
+      {icon:'vuejs.png',url:'https://vuejs.org'},
+      {icon:'sass.png',url:'https://sass-lang.com/'},
+      {icon:'php.png',url:'http://php.net/'},
+      {icon:'laravel.png',url:'https://laravel.com/'},
+      {icon:'symfony.png',url:'https://symfony.com/'},
+      {icon:'codeigniter.png',url:'https://codeigniter.com/'},
+    ];
+    this.state = {message: 'Hello!', stack};
+    // This line is important!
+    this.handleHover = this.handleHover.bind(this);
+  }
+
+
+  handleHover() {
+   // alert(this.state.stack[0].icon);
+  }
+
+
     render()
     {
 
         return(
 
             <div id="technology-stack">
-          
-          <a href="https://reactjs.org" target="__blank">
-          <img src="/react.png" className="App-logo" alt="logo" />
-          </a>
 
-          <a href="https://vuejs.org" target="__blank">
-          <img
-              src="/vuejs.png"
-              className="App-logo no-animation"
-              alt="logo" />
-
-          </a>
-           
-           <a href="https://sass-lang.com" target="_blank">
-           
-           <img
-              src="/sass.png"
-              className="App-logo no-animation"
-              alt="logo"
-            />
+        { this.state.stack.map(stack => 
+           <a href={stack.url} target="__blank" onMouseOver={this.handleHover} >
+           <img src={stack.icon} className="App-logo" alt="logo" />
            </a>
+        )}
 
-           <a href="http://php.net" target="_blank">
-           
-           <img
-              src="/php.png"
-              className="App-logo no-animation"
-              alt="logo"
-            />
-           </a>
-
-
-            <a href="https://laravel.com" target="_blank">
-            <img
-              src="/laravel.png"
-              className="App-logo no-animation"
-              alt="logo"
-            />
-            </a>
-
-            <a href="https://symfony.com" target="_blank">
-            <img
-              src="/symfony.png"
-              className="App-logo no-animation"
-              alt="logo"
-            />
-            </a>
-
-            <a href="https://www.codeigniter.com" target="_blank">
-            <img
-              src="/codeigniter.png"
-              className="App-logo no-animation"
-              alt="logo" 
-            />
-            </a>
           </div>
 
         );
