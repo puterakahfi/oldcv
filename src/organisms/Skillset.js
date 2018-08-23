@@ -29,6 +29,10 @@ class Skillset extends Component {
   render() {
     return (
       <div className="" id="skillset">
+       <h2> 
+                     <span>{this.props.title}</span>
+                </h2> 
+                <hr />
 
            <Nav tabs>
           <NavItem>

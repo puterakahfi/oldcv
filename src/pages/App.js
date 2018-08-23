@@ -25,7 +25,7 @@ class App extends Component {
         <Container >
             <Row>
               <Col md="6">
-              <Skillset />
+              <Skillset title="Skillset" />
               </Col>
 
               <Col md="6">
