@@ -1,10 +1,13 @@
 #skillset {
-    margin : 0px 0px;
-
-    text-align: left;
-  
-    img {
-      height: 50px;
-      float: left;
-    }
+  margin: 0px 0px;
+  text-align: left;
+  img {
+    height: 50px;
+    float: left;
   }
+  .nav-tabs .nav-link {
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px;
+  }
+}

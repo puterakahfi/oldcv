@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import "./App.css";
 
+
+import "./App.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as Brand from "@fortawesome/free-brands-svg-icons";
 import Header from "../organisms/Header";
@@ -14,6 +15,7 @@ import { Container, Row, Col } from 'reactstrap';
 import Projects from "../organisms/Projects";
 import CodingSnapshot from "../molecules/CodingSnapshot";
 import FogEffects from "../molecules/FogEffects";
+
 
 
 class App extends Component {

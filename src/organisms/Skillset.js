@@ -28,7 +28,8 @@ class Skillset extends Component {
 
   render() {
     return (
-      <div className="" id="skillset">
+      <div className="section" id="skillset">
+      <hr className="section-hr"/>
        <h2> 
                      <span>{this.props.title}</span>
                 </h2> 
@@ -84,8 +85,6 @@ class Skillset extends Component {
         <Progress  animated value="50">3 years experience still noob </Progress>
         <FontAwesomeIcon icon={Brand.faPhp} /> PHP
         <Progress value="55">3 years experience</Progress>
-        <FontAwesomeIcon icon={Brand.faCss3Alt} /> CSS
-        <Progress value="60">Not Bad</Progress>
 
               </Col>
             </Row>
@@ -96,8 +95,7 @@ class Skillset extends Component {
               <Col sm="12">
 
                       <FontAwesomeIcon icon={Brand.faGit} /> Git
-        <Progress  animated value="50">3 years experience still noob </Progress>
-        <FontAwesomeIcon icon={Brand.faPhp} /> PHP
+
         <Progress value="55">3 years experience</Progress>
         <FontAwesomeIcon icon={Brand.faCss3Alt} /> CSS
         <Progress value="60">Not Bad</Progress>

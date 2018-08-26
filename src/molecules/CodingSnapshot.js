@@ -15,7 +15,8 @@ class CodingSnapshot extends Component{
     render()
     {
         return(
-            <div id="coding-snapshot">
+            <div className="section" id="coding-snapshot">
+            <hr className="section-hr" />
                  <h2> 
                      <span>{this.props.title}</span>
                 </h2> 
