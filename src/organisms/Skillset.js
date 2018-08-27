@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as Brand from "@fortawesome/free-brands-svg-icons";
 import { Progress } from "reactstrap";
 import './styles/Skillset.css';
 import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
@@ -101,10 +99,15 @@ class Skillset extends Component {
             <Row>
               <Col sm="12">
 
-                      <FontAwesomeIcon icon={Brand.faGit} /> Git
-        <Progress  animated value="50">3 years experience still noob </Progress>
-        <FontAwesomeIcon icon={Brand.faPhp} /> PHP
-        <Progress value="55">3 years experience</Progress>
+            <div className="skill-item">Git 
+                 <Progress  animated value="50">good</Progress>
+              </div>
+              <div className="skill-item">SVN
+                 <Progress  animated value="50">good</Progress>
+              </div>
+              <div className="skill-item">Docker 
+                 <Progress  animated value="50">Not Bad</Progress>
+              </div>
 
               </Col>
             </Row>
@@ -124,6 +127,13 @@ class Skillset extends Component {
               </div>
               <div className="skill-item">CSS Bootstrap 
                  <Progress  animated value="60">3 years experience still noob </Progress>
+              </div>
+
+               <div className="skill-item">ReactJS
+                 <Progress  animated value="30">Still Learning </Progress>
+              </div>
+              <div className="skill-item">VueJS
+                 <Progress  animated value="20">Still Learning </Progress>
               </div>
 
               </Col>

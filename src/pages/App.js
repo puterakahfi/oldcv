@@ -2,19 +2,12 @@ import React, { Component } from "react";
 
 
 import "./App.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import * as Brand from "@fortawesome/free-brands-svg-icons";
 import Header from "../organisms/Header";
 import Skillset from "../organisms/Skillset";
-import ThemeSwticher from "../molecules/ThemeSwitcher";
-
-import axios from "axios";
-import GithubRepos from "../organisms/GithubRepos";
 
 import { Container, Row, Col } from 'reactstrap';
-import Projects from "../organisms/Projects";
 import CodingSnapshot from "../molecules/CodingSnapshot";
-import FogEffects from "../molecules/FogEffects";
+import Footer from "../organisms/Footer";
 
 
 
@@ -34,6 +27,10 @@ class App extends Component {
               <CodingSnapshot title="Coding Activity" />
 
               </Col>
+            </Row>
+            <Row>
+
+            <Footer />
             </Row>
         </Container>
       </div>

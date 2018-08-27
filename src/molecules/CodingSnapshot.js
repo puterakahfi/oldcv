@@ -1,7 +1,4 @@
 import React, {Component} from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import * as Solid from "@fortawesome/free-solid-svg-icons";
-import Typing from 'react-typing-animation';
 import './styles/CodingSnapshot.css';
 
 class CodingSnapshot extends Component{
