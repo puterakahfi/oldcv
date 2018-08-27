@@ -14,7 +14,18 @@ class Skillset extends Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      activeTab: '1'
+      activeTab: '1',
+      skills:[
+        {
+
+        },
+        {
+
+        },
+        {
+
+        }
+      ]
     };
   }
 
@@ -67,12 +78,21 @@ class Skillset extends Component {
             <Row>
               <Col sm="12">
               
-        <FontAwesomeIcon icon={Brand.faGit} /> Git
+        <div className="skill-item"> PHP
+        <Progress  animated value="60">3 years experience still noob </Progress>
+        </div>
+
+        <div className="skill-item"> HTML
+        <Progress  animated value="70">3 years experience still noob </Progress>
+        </div>
+
+           <div className="skill-item">CSS
+        <Progress  animated value="60">3 years experience still noob </Progress>
+        </div>
+
+        <div className="skill-item">Javascript
         <Progress  animated value="50">3 years experience still noob </Progress>
-        <FontAwesomeIcon icon={Brand.faPhp} /> PHP
-        <Progress value="55">3 years experience</Progress>
-        <FontAwesomeIcon icon={Brand.faCss3Alt} /> CSS
-        <Progress value="60">Not Bad</Progress>
+        </div>
 
               </Col>
             </Row>
@@ -93,12 +113,18 @@ class Skillset extends Component {
            <TabPane tabId="3">
             <Row>
               <Col sm="12">
-
-                      <FontAwesomeIcon icon={Brand.faGit} /> Git
-
-        <Progress value="55">3 years experience</Progress>
-        <FontAwesomeIcon icon={Brand.faCss3Alt} /> CSS
-        <Progress value="60">Not Bad</Progress>
+              <div className="skill-item">Symfony 
+                 <Progress  animated value="50">3 years experience still noob </Progress>
+              </div>
+              <div className="skill-item">Laravel 
+                 <Progress  animated value="30">3 years experience still noob </Progress>
+              </div>
+              <div className="skill-item">Codeigniter 
+                 <Progress  animated value="50">3 years experience still noob </Progress>
+              </div>
+              <div className="skill-item">CSS Bootstrap 
+                 <Progress  animated value="60">3 years experience still noob </Progress>
+              </div>
 
               </Col>
             </Row>
