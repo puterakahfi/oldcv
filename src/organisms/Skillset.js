@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import { Progress } from "reactstrap";
 import './styles/Skillset.css';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
-
+import { Progress, TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 
 class Skillset extends Component {
@@ -13,17 +11,6 @@ class Skillset extends Component {
     this.toggle = this.toggle.bind(this);
     this.state = {
       activeTab: '1',
-      skills:[
-        {
-
-        },
-        {
-
-        },
-        {
-
-        }
-      ]
     };
   }
 

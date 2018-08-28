@@ -8,6 +8,7 @@ import Skillset from "../organisms/Skillset";
 import { Container, Row, Col } from 'reactstrap';
 import CodingSnapshot from "../molecules/CodingSnapshot";
 import Footer from "../organisms/Footer";
+import Projects from "../organisms/Projects";
 
 
 
@@ -28,6 +29,17 @@ class App extends Component {
 
               </Col>
             </Row>
+
+             <Row>
+              <Col md="6">
+              <Projects title="Projects" />
+              </Col>
+
+              <Col md="6">
+
+              </Col>
+            </Row>
+
             <Row>
 
             <Footer />

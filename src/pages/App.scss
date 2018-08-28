@@ -26,6 +26,18 @@ a {
     text-align: left;
     font-weight: bold;
   }
+
+  .nav-tabs .nav-link {
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px;
+    font-size: .8em;
+  }
+
+  .nav-tabs {
+    border-bottom: none;
+  }
+
 }
 
 header {
