@@ -27,6 +27,7 @@ a {
     font-weight: bold;
   }
 
+ 
   .nav-tabs .nav-link {
     border-radius: 0px;
     border: none;
@@ -34,6 +35,17 @@ a {
     font-size: .8em;
   }
 
+  .nav-tabs .nav-link {
+    border-radius: 77px;
+    border: none;
+    border-bottom: 3px;
+    background: transparent;
+    border: solid 1px;
+    padding: 5px 10px;
+    margin: 0px 5px;
+  }
+
+  
   .nav-tabs {
     border-bottom: none;
   }

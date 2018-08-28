@@ -32,7 +32,6 @@ class App extends Component {
 
              <Row>
               <Col md="6">
-              <Projects title="Projects" />
               </Col>
 
               <Col md="6">
