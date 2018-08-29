@@ -6,12 +6,16 @@ header {
 
   #version {
     position: absolute;
-    left: -42px;
+    left: -50px;
     font-weight: lighter;
     -webkit-transform: rotate(-90deg);
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
-    top: 45px;
+    top: 39px;
+    background: #e5b900;
+    border-bottom: solid 1px yellow;
+    padding:5px;
+    margin:0px 5px;
   }
   
   hr {
