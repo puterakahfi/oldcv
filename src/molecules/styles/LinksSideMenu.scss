@@ -1,0 +1,24 @@
+#links-side-menu
+{
+        position: absolute;
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        grid-template-columns: auto;
+        padding: 5px;
+        left:5px;
+        top: 135px;
+        margin: 50px 0px;
+ 
+    ul{
+        display: flex;
+    }
+    li{
+        list-style: none; 
+        grid-column: 1;
+        transform: rotate(-90deg);
+        padding: 10px 5px;
+        
+    }
+
+}
