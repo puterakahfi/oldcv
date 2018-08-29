@@ -9,21 +9,34 @@ import "./styles/Footer.css";
 
 class Footer extends Component
 {
+    constructor(props) {
+        super(props);
+    
+        this.state = {
+
+            loading: false,
+            links:[
+                {icon:Brand.faFacebook, link:'https://www.facebook.com/codejunior'},
+                {icon:Brand.faLinkedin},
+                {icon:Brand.faGithubSquare}
+            ],   
+        };
+      }
+  
     render()
     {
         return(
             <footer>
                 <ul>
-                    <li>
-                        <FontAwesomeIcon size="2x" icon={Brand.faFacebook} />
-                    </li>
-                    <li>
-                        <FontAwesomeIcon size="2x" icon={Brand.faLinkedin} />
-                    </li>
-                    <li>
-                        <FontAwesomeIcon size="2x" icon={Brand.faGithubSquare} />
-                    </li>
 
+                    {this.state.links.map(function(item){
+                        return <li>
+                            <a href={item.link} target="_blank"><FontAwesomeIcon size="2x" icon={item.icon} /></a>
+                        </li>
+                    })
+                }
+                  
+                    
                 </ul>
             </footer>
 

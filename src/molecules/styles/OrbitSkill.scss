@@ -181,9 +181,9 @@ $icons : (
   ('meetup', red, white),
   ('podcast', red, white),
   ('codepen', #333, white),
-  ('php', #8E8AC0, white),
-  ('vue', #00C584, white),
-  ('laravel', #ec4d3a, white),
+  ('php', white, #8E8AC0),
+  ('vue', white,#00C584),
+  ('laravel', white, #ec4d3a),
 );
 
 @each $icon in $icons {

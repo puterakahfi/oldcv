@@ -12,7 +12,7 @@ class Header extends Component {
       <header className="container header">
         <div className="row">
           <div className="col-md-6">
-            <h6>ver: beta</h6>
+            <h6 id="version">ver : <strong>beta</strong></h6>
             <hr />
             <h1 className="title"><Typing speed="50">Putera Kahfi</Typing></h1>
 

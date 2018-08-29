@@ -2,6 +2,18 @@ header {
   text-align: left;
   padding-top:50px;
 
+
+
+  #version {
+    position: absolute;
+    left: -42px;
+    font-weight: lighter;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 45px;
+  }
+  
   hr {
     width: 82px;
     color: dotted;
