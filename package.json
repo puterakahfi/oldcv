@@ -19,6 +19,7 @@
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.4",
+    "react-timeline-scribble": "^1.0.12",
     "react-typing-animation": "^1.4.0",
     "reactstrap": "^6.4.0"
   },

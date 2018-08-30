@@ -24,19 +24,17 @@ class App extends Component {
         <Container >
             <Row>
               <Col md="6">
-              <Skillset title="Skillset" />
+              <Experiences label="Experience" />
               </Col>
-
               <Col md="6">
               <CodingSnapshot title="Coding Activity" />
-
               </Col>
             </Row>
             
 
              <Row>
              <Col md="6">
-              <Experiences />
+              <Skillset title="Skillset" />
               </Col>
               <Col md="6">
               <Projects />

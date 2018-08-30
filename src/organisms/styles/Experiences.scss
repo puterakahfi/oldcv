@@ -1,0 +1,50 @@
+#experiences
+{
+    text-align: left;
+
+
+
+    .css-692fgp {
+        color: white;
+        background-color: #141A1E;
+        box-shadow: inset 0 0 0 0em #ef795a;
+        display: inline-block;
+        margin-bottom: 1.2em;
+        padding: 0.25em 1em 0.2em 1em;
+        /* font-weight: lighter; */
+    }
+    
+    .css-1id2lqt::before {
+        background-color: #141A1E;
+        content: '';
+        margin-left: -1px;
+        position: absolute;
+        top: 0;
+        left: 2em;
+        width: 2px;
+        height: 100%;
+    }
+
+    .css-vcfpfv {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        background-color: #E5B900;
+        outline: 10px solid #141A1E;
+        display: block;
+        margin: 0.5em 0.5em 0.5em -0.5em;
+        position: absolute;
+        top: 0;
+        left: 2em;
+        width: 1em;
+        height: 1em;
+        border-radius: 10px;
+        -moz-outline-radius: 10px;
+    }
+
+    .css-1tr4ugw h3 {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+}

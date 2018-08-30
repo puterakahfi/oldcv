@@ -15,9 +15,9 @@ class Header extends Component {
           <div className="col-md-6">
             <h6 id="version">ver : <strong>beta</strong></h6>
             <hr />
-            <h1 className="title"><Typing speed="50"> Putera Kahfi  </Typing></h1>
+            <h1 className="title">Putera Kahfi</h1>
 
-            <h2>  <Typing speed="100">      <Typing.Delay ms={1000} />Web Developer</Typing> </h2>
+            <h2>Web Developer</h2>
             <h5>// <a href="https://en.wikipedia.org/wiki/Web_design">Web Designer </a> // <a href="https://en.wikipedia.org/wiki/Front-end_web_development" target="_blank">Frontend</a> // Backend</h5>
 
             <p id="short-desc">
