@@ -56,41 +56,6 @@ a {
 
 }
 
-header {
-  height: 500px;
-  text-align: left;
-  .title {
-    font-weight: bold;
-    font-size: 6em;
-    text-align: left;
-    line-height: 90px;
-    margin: 50px 0px 20px 0px;
-    color: white;
-  }
-  h2 {
-    font-size: 2rem;
-    font-weight: lighter;
-    color: whitesmoke;
-  }
-  .App-logo {
-    height: 50px;
-  }
-  .App-header {
-    padding: 20px;
-    color: #222;
-  }
-  .App-title {
-    font-size: 4em;
-    font-weight: bold;
-  }
-  .no-animation {
-    animation: none;
-  }
-  .App-intro {
-    font-size: large;
-  }
-}
-
 
 .section .nav-tabs .nav-link {
 	border-radius: 77px;
@@ -104,7 +69,7 @@ header {
 
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
 	color: white;
-  background-color: #14b3fb;
+  background-color: #141a1e;
   border:solid 1px  #14b3fb;
   border:none;
   /* border-color: #dee2e6 #dee2e6 #fff; */
