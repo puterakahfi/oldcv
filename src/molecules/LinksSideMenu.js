@@ -15,8 +15,8 @@ class LinksSideMenu extends Component{
             loading: false,
             links:[
                 {icon:Brand.faFacebook, link:'https://www.facebook.com/codejunior'},
-                {icon:Brand.faLinkedin},
-                {icon:Brand.faGithubSquare}
+                {icon:Brand.faLinkedin, link:'https://www.linkedin.com/in/putera-kahfi-52663b48'},
+                {icon:Brand.faGithubSquare, link:'https://github.com/puterakahfi/'}
             ],   
         };
       }

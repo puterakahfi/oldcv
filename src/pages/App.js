@@ -10,6 +10,7 @@ import CodingSnapshot from "../molecules/CodingSnapshot";
 import Footer from "../organisms/Footer";
 import Projects from "../organisms/Projects";
 import LinksSideMenu from "../molecules/LinksSideMenu";
+import Experiences from "../organisms/Experiences";
 
 
 
@@ -31,19 +32,18 @@ class App extends Component {
 
               </Col>
             </Row>
+            
 
              <Row>
-              <Col md="6">
+             <Col md="6">
+              <Experiences />
               </Col>
-
               <Col md="6">
-
+              <Projects />
               </Col>
             </Row>
 
             <Row>
-
-            <Footer />
             </Row>
         </Container>
       </div>

@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import * as Brand from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import * as Solid  from '@fortawesome/free-solid-svg-icons';
-import { Progress, TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
 
 class Projects extends Component {

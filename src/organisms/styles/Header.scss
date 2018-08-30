@@ -1,6 +1,6 @@
-header {
+#header {
   text-align: left;
-  padding-top:50px;
+  margin: 50px auto;
 
 
 
@@ -12,8 +12,7 @@ header {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     top: 39px;
-    background: #e5b900;
-    border-bottom: solid 1px yellow;
+    border-bottom: solid 2px #E5B900;
     padding:5px;
     margin:0px 5px;
   }

@@ -5,12 +5,13 @@ import "./styles/Header.css";
 import TechnologyStack from "../molecules/TechnologyStack";
 import OrbitSkill from "../molecules/OrbitSkill";
 import Typing from "react-typing-animation/dist/Typing";
+import {Row,Container} from 'reactstrap';
 
 class Header extends Component {
   render() {
     return (
-      <header className="container header">
-        <div className="row">
+     <Container id="header">
+        <Row>
           <div className="col-md-6">
             <h6 id="version">ver : <strong>beta</strong></h6>
             <hr />
@@ -30,8 +31,8 @@ class Header extends Component {
           <div className="col-md-5">
             <OrbitSkill />
           </div>
-        </div>
-      </header>
+        </Row>
+        </Container>
     );
   }
 }

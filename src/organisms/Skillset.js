@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './styles/Skillset.css';
 import { Progress, TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
 import classnames from 'classnames';
+import SkillsetBar from '../molecules/SkillsetBar';
 
 class Skillset extends Component {
 
@@ -62,39 +63,19 @@ class Skillset extends Component {
           <TabPane tabId="1">
             <Row>
               <Col sm="12">
-              
-        <div className="skill-item"> PHP
-        <Progress  animated value="60">3 years experience still noob </Progress>
-        </div>
-
-        <div className="skill-item"> HTML
-        <Progress  animated value="70">3 years experience still noob </Progress>
-        </div>
-
-           <div className="skill-item">CSS
-        <Progress  animated value="60">3 years experience still noob </Progress>
-        </div>
-
-        <div className="skill-item">Javascript
-        <Progress  animated value="50">3 years experience still noob </Progress>
-        </div>
-
+              <SkillsetBar value="60" label="PHP" text="Not Bad"/>
+              <SkillsetBar value="60" label="HTML" text="Not Bad"/>
+              <SkillsetBar value="60" label="CSS" text="Not Bad"/>
+              <SkillsetBar value="60" label="Javascript" text="Not Bad"/>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="2">
             <Row>
               <Col sm="12">
-
-            <div className="skill-item">Git 
-                 <Progress  animated value="50">good</Progress>
-              </div>
-              <div className="skill-item">SVN
-                 <Progress  animated value="50">good</Progress>
-              </div>
-              <div className="skill-item">Docker 
-                 <Progress  animated value="50">Not Bad</Progress>
-              </div>
+              <SkillsetBar value="50" label="Git" text=""/>
+              <SkillsetBar value="50" label="SVN" text=""/>
+              <SkillsetBar value="50" label="Docker" text=""/>
 
               </Col>
             </Row>
@@ -103,26 +84,12 @@ class Skillset extends Component {
            <TabPane tabId="3">
             <Row>
               <Col sm="12">
-              <div className="skill-item">Symfony 
-                 <Progress  animated value="50">3 years experience still noob </Progress>
-              </div>
-              <div className="skill-item">Laravel 
-                 <Progress  animated value="30">3 years experience still noob </Progress>
-              </div>
-              <div className="skill-item">Codeigniter 
-                 <Progress  animated value="50">3 years experience still noob </Progress>
-              </div>
-              <div className="skill-item">CSS Bootstrap 
-                 <Progress  animated value="60">3 years experience still noob </Progress>
-              </div>
-
-               <div className="skill-item">ReactJS
-                 <Progress  animated value="30">Still Learning </Progress>
-              </div>
-              <div className="skill-item">VueJS
-                 <Progress  animated value="20">Still Learning </Progress>
-              </div>
-
+              <SkillsetBar value="50" label="Symfony" text=""/>
+              <SkillsetBar value="40" label="Codeigniter" text=""/>
+              <SkillsetBar value="20" label="Laravel" text=""/>
+              <SkillsetBar value="50" label="CSS Bootstrap" text=""/>
+              <SkillsetBar value="20" label="ReactJS" text=""/>
+              <SkillsetBar value="10" label="VueJS" text=""/>
               </Col>
             </Row>
           </TabPane>
