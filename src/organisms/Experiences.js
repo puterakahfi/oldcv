@@ -23,7 +23,7 @@ class Experiences extends Component
         consequat. 
         <hr/>
       </Event>
-      <Event interval={"2010 – 2013"} title={"PT.Gamatechno"} subtitle={"Yogyakarta, Indonesia"}>
+      <Event interval={"2010 – 2013"} title={"PT.Gamatechno Indonesia"} subtitle={"Yogyakarta, Indonesia"}>
 
       <h5> // Web Developer</h5>
         dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
