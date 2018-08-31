@@ -99,6 +99,7 @@ a {
     to {
       transform: rotate(360deg);
     }
+  }
 
     @include media-breakpoint-down(xs) {
       .nav-tabs .nav-link {
@@ -119,9 +120,9 @@ a {
     }
 
     @include media-breakpoint-up(lg) {
-
       .nav-tabs .nav-link {
         font-size: .9em;
       }
     }
-  }
+
+}
