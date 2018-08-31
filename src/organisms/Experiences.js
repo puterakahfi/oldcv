@@ -21,6 +21,7 @@ class Experiences extends Component
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. 
+        <hr/>
       </Event>
       <Event interval={"2010 – 2013"} title={"PT.Gamatechno"} subtitle={"Yogyakarta, Indonesia"}>
 
@@ -29,6 +30,8 @@ class Experiences extends Component
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
         consequat. 
+
+        <hr/>
       </Event>
     </Timeline>
   </Fragment>

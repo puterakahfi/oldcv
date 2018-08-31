@@ -8,8 +8,8 @@ class SkillsetBar extends Component
     {
 
         return(
-
-        <div className="skill-item">{this.props.label}
+            <div className="skillset-bar">
+                <h6>{this.props.label}</h6>
             <Progress  value={this.props.value}>{this.props.text} </Progress>
          </div>
         );
