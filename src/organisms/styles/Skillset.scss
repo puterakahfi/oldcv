@@ -12,9 +12,14 @@
 
   .skill-item{
     margin: 10px auto;
+
   }
   .nav-tabs {
     border-bottom: none;
+
+    &:first{
+      margin-left: 3000px;
+    }
   }
 
   .progress{

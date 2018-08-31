@@ -25,11 +25,11 @@ a {
     width: 82px;
     color: dotted;
     border-color: red;
-    border-width: 10px;
+    border-width: 2px;
     text-align: left;
     margin-left: 0px;
-    margin-bottom: 10px;
-    border-color: #7fc984; // Old browsers
+    margin-bottom: 5px;
+    border-color: #7fc984;
   }
 
   h2 {
@@ -50,6 +50,7 @@ a {
     /* border: solid 1px; */
     padding: 5px 10px;
     margin: 0px 5px;
+
 
     &:hover{
       transform: scale(1.1);

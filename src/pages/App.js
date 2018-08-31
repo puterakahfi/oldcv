@@ -9,7 +9,6 @@ import { Container, Row, Col } from 'reactstrap';
 import CodingSnapshot from "../molecules/CodingSnapshot";
 import Footer from "../organisms/Footer";
 import Projects from "../organisms/Projects";
-import LinksSideMenu from "../molecules/LinksSideMenu";
 import Experiences from "../organisms/Experiences";
 
 
@@ -18,7 +17,6 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-       <LinksSideMenu />
         <Header /> 
         
         <Container >
@@ -43,6 +41,9 @@ class App extends Component {
 
             <Row>
             </Row>
+            <Row>
+              <Footer />
+              </Row>
         </Container>
       </div>
     );

@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as Brand from "@fortawesome/free-brands-svg-icons";
 
 import "./styles/Footer.css";
+import SocialLinks from '../molecules/SocialLinks';
 
 
 class Footer extends Component
@@ -15,11 +16,6 @@ class Footer extends Component
         this.state = {
 
             loading: false,
-            links:[
-                {icon:Brand.faFacebook, link:'https://www.facebook.com/codejunior'},
-                {icon:Brand.faLinkedin},
-                {icon:Brand.faGithubSquare}
-            ],   
         };
       }
   
@@ -27,17 +23,10 @@ class Footer extends Component
     {
         return(
             <footer>
-                <ul>
-
-                    {this.state.links.map(function(item){
-                        return <li>
-                            <a href={item.link} target="_blank"><FontAwesomeIcon size="2x" icon={item.icon} /></a>
-                        </li>
-                    })
-                }
-                  
-                    
-                </ul>
+            <SocialLinks />
+            <h6>
+                Copyleft © 2018 Putera Kahfi
+            </h6>
             </footer>
 
         );

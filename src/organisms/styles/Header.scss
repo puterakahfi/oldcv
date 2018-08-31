@@ -1,6 +1,13 @@
 #header {
-  text-align: left;
+  text-align: center;
   margin: 50px auto;
+
+  a{
+    color: #7FC984;
+    &:hover{
+      transform: scale(3);
+    }
+  }
 
 
 
@@ -12,21 +19,11 @@
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     top: 39px;
-    border-bottom: solid 2px #E5B900;
+    border-bottom: solid 2px #7FC984;
     padding:5px;
     margin:0px 5px;
   }
-  
-  hr {
-    width: 82px;
-    color: dotted;
-    border-color: #7fc984; // Old browsers
-    border-width: 10px;
-    text-align: left;
-    margin-left: 0px;
-    margin-bottom: 0px;
-  }
-
+ 
   #short-desc {
     margin: 20px 0px; 
   }
@@ -36,10 +33,10 @@
   .title {
     font-weight: bold;
     font-size: 5.5em;
-    text-align: left;
     line-height: 70px;
     margin: 0px;
     color: white;
+    text-transform: uppercase;
     
   }
   h2 {
@@ -47,6 +44,7 @@
     font-size: 2.5rem;
     font-weight: bolder;
     color: whitesmoke;
+    text-align: center;
   }
 
   h5,h6{

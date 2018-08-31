@@ -52,6 +52,15 @@ class Projects extends Component {
               Templates
             </NavLink>
           </NavItem>
+
+          <NavItem>
+            <NavLink
+              className={classnames({ active: this.state.activeTab === '3' })}
+              onClick={() => { this.toggle('3'); }}
+            >
+              Repositories
+            </NavLink>
+          </NavItem>
         </Nav>
 
         <TabContent activeTab={this.state.activeTab}>
@@ -67,6 +76,14 @@ class Projects extends Component {
             <Row>
               <Col sm="12">
                 templates goes here
+              </Col>
+            </Row>
+          </TabPane>
+
+           <TabPane tabId="3">
+            <Row>
+              <Col sm="12">
+              Repositories goes here
               </Col>
             </Row>
           </TabPane>
