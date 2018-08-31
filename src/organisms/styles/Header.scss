@@ -20,10 +20,11 @@
   hr {
     width: 82px;
     color: dotted;
-    border-color: #E5B900;
+    border-color: #7fc984; // Old browsers
     border-width: 10px;
     text-align: left;
     margin-left: 0px;
+    margin-bottom: 0px;
   }
 
   #short-desc {
@@ -39,6 +40,7 @@
     line-height: 70px;
     margin: 0px;
     color: white;
+    
   }
   h2 {
     margin-top: 20px;
