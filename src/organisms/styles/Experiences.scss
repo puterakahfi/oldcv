@@ -1,27 +1,14 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
 #experiences {
     text-align: left;
     left: 2em;
 
-    .css-1tr4ugw {
-        h3 {
-            font-size: 2.5em;
-            font-weight: bold;
-            line-height: 0.9em;
-            margin-bottom: 5px;
-        }
-
-        h4 {
-            font-size: 1.4em;
-            margin-bottom: .2em;
-            font-weight: lighter;
-        }
-
-        h5{
-                font-size: 1.3em;
-                margin-bottom: 1.2em;
-                font-weight: bold;
-    
-        }
+    h3,
+    h5 {
+        font-weight: bold;
     }
 
     .css-1id2lqt::before {
@@ -49,5 +36,87 @@
         width: 1em;
         height: 1em;
         -moz-outline-radius: 10px;
+    }
+
+    @include media-breakpoint-down(xs) {
+        .css-1tr4ugw {
+            left: 3em;
+
+            h3 {
+                font-size: 2em;
+                font-weight: bold;
+                line-height: 0.9em;
+                margin-bottom: 5px;
+            }
+            h4{
+                font-size: 1em;
+                margin-bottom: .1em;
+            }
+
+            h5{
+                margin-bottom: .9em;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(sm) {
+        .css-1tr4ugw {
+            h3 {
+                font-size: 2.3em;
+                font-weight: bold;
+                line-height: 0.9em;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        html {
+            font-size: 1.4rem;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .css-1tr4ugw {
+            h3 {
+                font-size: 5em;
+                font-weight: bold;
+                line-height: 0.9em;
+                margin-bottom: 5px;
+            }
+
+            h4 {
+                font-size: 1.4em;
+                margin-bottom: .2em;
+                font-weight: lighter;
+            }
+
+            h5 {
+                font-size: 1.3em;
+                margin-bottom: 1.2em;
+                font-weight: bold;
+            }
+        }
+
+        .css-1tr4ugw {
+            h3 {
+                font-size: 2.5em;
+                font-weight: bold;
+                line-height: 0.9em;
+                margin-bottom: 5px;
+            }
+
+            h4 {
+                font-size: 1.4em;
+                margin-bottom: .2em;
+                font-weight: lighter;
+            }
+
+            h5 {
+                font-size: 1.3em;
+                margin-bottom: 1.2em;
+                font-weight: bold;
+            }
+        }
     }
 }

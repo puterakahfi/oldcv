@@ -1,23 +1,39 @@
-#technology-stack
-{
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
 
-
+#technology-stack {
   .App-logo {
     height: 45px;
     margin: 5px 10px;
-    transition: all .3s ease-in-out; 
+    transition: all .3s ease-in-out;
   }
 
-  .App-logo:hover { 
+  .App-logo:hover {
     transform: scale(1.2);
-   }
+  }
 
   .App-header {
     padding: 20px;
     color: #222;
   }
+
   .App-title {
     font-size: 4em;
     font-weight: bold;
   }
+
+  @include media-breakpoint-up(xs) {
+    .App-logo {
+      height: 30px
+    }
+  }
+
+  @include media-breakpoint-up(sm) {}
+
+  @include media-breakpoint-up(md) {}
+
+  @include media-breakpoint-up(lg) {}
+
+  @include media-breakpoint-up(xl) {}
 }

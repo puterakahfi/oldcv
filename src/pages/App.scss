@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet');
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
 
 body {
   font-family: "Fira Sans", sans-serif;
@@ -37,7 +40,6 @@ a {
     font-weight: bold;
   }
 
-  
   .nav-tabs {
     border-bottom: none;
   }
@@ -51,8 +53,7 @@ a {
     padding: 5px 10px;
     margin: 0px 5px;
 
-
-    &:hover{
+    &:hover {
       transform: scale(1.1);
     }
   }
@@ -77,26 +78,50 @@ a {
     /* IE6-9 fallback on horizontal gradient */
     background: #384071;
 
-    &:hover{
+    &:hover {
       transform: scale(1);
     }
   }
-}
 
-.tab-content {
-  padding: 15px 0px;
-}
-
-a:hover {
-  cursor: pointer;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .tab-content {
+    padding: 15px 0px;
   }
 
-  to {
-    transform: rotate(360deg);
+  a:hover {
+    cursor: pointer;
   }
-}
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+
+    @include media-breakpoint-down(xs) {
+      .nav-tabs .nav-link {
+        font-size: .9em;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      .nav-tabs .nav-link {
+        font-size: .9em;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      .nav-tabs .nav-link {
+        font-size: .9em;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+
+      .nav-tabs .nav-link {
+        font-size: .9em;
+      }
+    }
+  }
