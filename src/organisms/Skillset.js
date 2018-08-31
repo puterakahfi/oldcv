@@ -84,12 +84,12 @@ class Skillset extends Component {
            <TabPane tabId="3">
             <Row>
               <Col sm="12">
-              <SkillsetBar value="50" label="Symfony" text=""/>
+              <SkillsetBar value="60" label="Symfony" text=""/>
               <SkillsetBar value="40" label="Codeigniter" text=""/>
               <SkillsetBar value="20" label="Laravel" text=""/>
               <SkillsetBar value="50" label="CSS Bootstrap" text=""/>
-              <SkillsetBar value="20" label="ReactJS" text=""/>
-              <SkillsetBar value="10" label="VueJS" text=""/>
+              <SkillsetBar value="5" label="ReactJS" text=""/>
+              <SkillsetBar value="8" label="VueJS" text=""/>
               </Col>
             </Row>
           </TabPane>
