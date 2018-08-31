@@ -14,7 +14,6 @@ class Header extends Component {
         <Row>
           <div className="col-md-6">
             <h6 id="version">ver : <strong>beta</strong></h6>
-            <hr />
             <h1 className="title">Putera Kahfi</h1>
 
             <h2>Web Developer</h2>

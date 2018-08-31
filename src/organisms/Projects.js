@@ -33,6 +33,7 @@ class Projects extends Component {
             <div className="section">
                 <hr class="section-hr" />
                 <h2>Projects</h2>
+                <hr/>
 
                  <Nav tabs>
           <NavItem>
