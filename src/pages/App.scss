@@ -3,6 +3,8 @@
 body {
   font-family: "Fira Sans", sans-serif;
   background: #25333f;
+  background: #000112;
+  background: #121327;
   color: white;
 }
 
@@ -35,55 +37,49 @@ a {
     font-weight: bold;
   }
 
-  .nav-tabs .nav-link {
-    border-radius: 0px;
-    border: none;
-    border-bottom: 3px;
-    font-size: .8em;
-  }
-
-  .nav-tabs .nav-link {
-    border: none;
-    border-bottom: 3px;
-    background: transparent;
-    border: solid 1px;
-    padding: 5px 10px;
-    margin: 0px 5px;
-  }
-
+  
   .nav-tabs {
     border-bottom: none;
   }
-}
 
-.section .nav-tabs .nav-link {
-  border-radius: 77px;
-  border: none;
-  border-bottom: 3px;
-  background: transparent;
-  /* border: solid 1px; */
-  padding: 5px 10px;
-  margin: 0px 5px;
-}
+  .nav-tabs .nav-link {
+    border-radius: 77px;
+    border: none;
+    border-bottom: 3px;
+    background: transparent;
+    /* border: solid 1px; */
+    padding: 5px 10px;
+    margin: 0px 5px;
 
-.nav-tabs .nav-item.show .nav-link,
-.nav-tabs .nav-link.active {
-  color: white;
-  background-color: #141a1e;
-  border: solid 1px #14b3fb;
-  border: none;
-  /* border-color: #dee2e6 #dee2e6 #fff; */
-  border-radius: 1px;
-  background: #7fc984;
-  /* Old browsers */
-  background: -moz-linear-gradient(-45deg, #7fc984 0%, #109396 44%, #0a7681 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(-45deg, #7fc984 0%, #109396 44%, #0a7681 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(135deg, #7fc984 0%, #109396 44%, #0a7681 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fc984', endColorstr='#0a7681', GradientType=1);
-  /* IE6-9 fallback on horizontal gradient */
+    &:hover{
+      transform: scale(1.1);
+    }
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #141a1e;
+    border: solid 1px #14b3fb;
+    border: none;
+    /* border-color: #dee2e6 #dee2e6 #fff; */
+    border-radius: 1px;
+    background: #7fc984;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #7fc984 0%, #109396 44%, #0a7681 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #7fc984 0%, #109396 44%, #0a7681 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #7fc984 0%, #109396 44%, #0a7681 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fc984', endColorstr='#0a7681', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    background: #384071;
+
+    &:hover{
+      transform: scale(1);
+    }
+  }
 }
 
 .tab-content {

@@ -15,7 +15,7 @@ class Experiences extends Component
             <Fragment>
 
     <Timeline>
-      <Event interval={"2016 – Current"} title={"PT.Visi Multimedia Aditama"} subtitle={"Web Developer"}>
+      <Event interval={"2013 – Current"} title={"PT.Visi Multimedia Aditama"} subtitle={"Web Developer"}>
         dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo

@@ -15,15 +15,11 @@ class CodingSnapshot extends Component{
             loading: false,
             activeTab: '1',
             content:"",
-            wakatime: 'https://wakatime.com/share/@puterakahfi/4850fd01-3b5e-4922-b350-101d7b6378d1.svg',
-            wakatime2: 'https://wakatime.com/share/@puterakahfi/f4eada33-25e6-4b04-b23c-9e3e7577c7b7.svg',      
+            activity: 'https://wakatime.com/share/@puterakahfi/5c7550a6-2b53-4a80-b96f-2e60e9a5fc40.svg',
+            language: 'https://wakatime.com/share/@puterakahfi/eb74a86b-3b9b-4068-aaab-95c92b1fe4fb.svg',      
         };
       }
   
-      componentDidMount () {
-
-
-      } 
 
     
   toggle(tab) {
@@ -37,7 +33,7 @@ class CodingSnapshot extends Component{
     render()
     {
 
-      const { wakatime, wakatime2, loading } = this.state;
+      const { activity, language, loading } = this.state;
       if(loading){
         return(
 
@@ -78,7 +74,7 @@ class CodingSnapshot extends Component{
       <TabPane tabId="1">
         <Row>
           <Col sm="12" >
-          <figure className="coding-item"><embed src={wakatime}></embed></figure>
+          <figure className="coding-item"><embed src={activity}></embed></figure>
 
           </Col>
         </Row>
@@ -86,7 +82,7 @@ class CodingSnapshot extends Component{
       <TabPane tabId="2">
         <Row>
           <Col sm="12">
-          <figure className="coding-item"><embed src={wakatime2}></embed></figure>
+          <figure className="coding-item"><embed src={language}></embed></figure>
 
         </Col>
         </Row>
