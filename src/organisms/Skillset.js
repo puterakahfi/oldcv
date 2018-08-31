@@ -63,19 +63,19 @@ class Skillset extends Component {
           <TabPane tabId="1">
             <Row>
               <Col sm="12">
-              <SkillsetBar value="60" label="PHP" text="Not Bad"/>
-              <SkillsetBar value="60" label="HTML" text="Not Bad"/>
-              <SkillsetBar value="60" label="CSS" text="Not Bad"/>
-              <SkillsetBar value="60" label="Javascript" text="Not Bad"/>
+              <SkillsetBar value="60" label="PHP" />
+              <SkillsetBar value="60" label="HTML"/>
+              <SkillsetBar value="60" label="CSS" />
+              <SkillsetBar value="60" label="Javascript"/>
               </Col>
             </Row>
           </TabPane>
           <TabPane tabId="2">
             <Row>
               <Col sm="12">
-              <SkillsetBar value="50" label="Git" text=""/>
-              <SkillsetBar value="50" label="SVN" text=""/>
-              <SkillsetBar value="50" label="Docker" text=""/>
+              <SkillsetBar value="50" label="Git" />
+              <SkillsetBar value="50" label="SVN" />
+              <SkillsetBar value="50" label="Docker" />
 
               </Col>
             </Row>
@@ -84,12 +84,12 @@ class Skillset extends Component {
            <TabPane tabId="3">
             <Row>
               <Col sm="12">
-              <SkillsetBar value="60" label="Symfony" text=""/>
-              <SkillsetBar value="40" label="Codeigniter" text=""/>
-              <SkillsetBar value="20" label="Laravel" text=""/>
-              <SkillsetBar value="50" label="CSS Bootstrap" text=""/>
-              <SkillsetBar value="5" label="ReactJS" text=""/>
-              <SkillsetBar value="8" label="VueJS" text=""/>
+              <SkillsetBar value="60" label="Symfony" />
+              <SkillsetBar value="40" label="Codeigniter" />
+              <SkillsetBar value="20" label="Laravel" />
+              <SkillsetBar value="50" label="CSS Bootstrap" />
+              <SkillsetBar value="5" label="ReactJS" />
+              <SkillsetBar value="8" label="VueJS" />
               </Col>
             </Row>
           </TabPane>
