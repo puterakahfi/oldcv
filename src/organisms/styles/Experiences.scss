@@ -1,20 +1,28 @@
-#experiences
-{
+#experiences {
     text-align: left;
 
+    .css-1tr4ugw {
+        h3 {
+            font-size: 2.5em;
+            font-weight: bold;
+            line-height: 0.9em;
+            margin-bottom: 5px;
+        }
 
+        h4 {
+            font-size: 1.4em;
+            margin-bottom: .2em;
+            font-weight: lighter;
+        }
 
-    .css-692fgp {
-        color: white;
-        box-shadow: inset 0 0 0 0em #ef795a;
-        display: inline-block;
-        margin-bottom: 1.2em;
-        padding: 0.25em 1em 0.2em 1em;
-        /* font-weight: lighter; */  
-        background: #384071;
-
-    }
+        h5{
+                font-size: 1.3em;
+                margin-bottom: 1.2em;
+                font-weight: bold;
     
+        }
+    }
+
     .css-1id2lqt::before {
         background-color: rgb(255, 255, 255);
         content: '';
@@ -41,10 +49,4 @@
         height: 1em;
         -moz-outline-radius: 10px;
     }
-
-    .css-1tr4ugw h3 {
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-
 }
