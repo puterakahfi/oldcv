@@ -27,10 +27,10 @@
         "items": [
             {
                 "company": "PT.Visi Multimedia Aditama",
-                "position": "President",
+                "position": "Web Developer",
                 "website": "http://company.com",
-                "startDate": "2013-01-01",
-                "endDate": "2014-01-01",
+                "startDate": "2014",
+                "endDate": "Current",
                 "summary": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
                 "highlights": [
                     "Started the company"
@@ -38,10 +38,10 @@
             },
             {
                 "company": "PT.Gamatechno Indonesia",
-                "position": "President",
+                "position": "Web Developer",
                 "website": "http://company.com",
-                "startDate": "2013-01-01",
-                "endDate": "2014-01-01",
+                "startDate": "2010",
+                "endDate": "2013",
                 "summary": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
                 "highlights": [
                     "Started the company"

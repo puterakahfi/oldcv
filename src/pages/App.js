@@ -1,10 +1,5 @@
 import React, { Component } from "react";
 
-import { extendObservable } from 'mobx';
-import { observer }  from 'mobx-react';
-
-
-
 import "./App.css";
 import Header from "../organisms/Header";
 import Skillset from "../organisms/Skillset";
