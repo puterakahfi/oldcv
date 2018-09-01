@@ -25,9 +25,9 @@
     "works": {
         "label": "Experiences",
         "items": [{
-                "company": "PT.Mencari Cinta Sejati Cing",
-                "country": "Facebook Land, USA",
-                "position": "Tukang Kepo",
+                "company": "PT.Visi Multimedia Aditama",
+                "country": "Yogyakarta, Indonesia",
+                "position": "Web Developer",
                 "website": "http://company.com",
                 "startDate": "2014",
                 "endDate": "Current",
@@ -37,9 +37,9 @@
                 ]
             },
             {
-                "company": "PT.Maju Mundur",
+                "company": "PT.Gamatechno Indonesia",
                 "position": "Web Developer",
-                "country": "New Zealand",
+                "country": "Yogyakarta, Indonesia",
                 "website": "http://company.com",
                 "startDate": "2010",
                 "endDate": "2013",
@@ -114,12 +114,22 @@
         "name": "Jane Doe",
         "reference": "Reference..."
     }],
-    "wakatimActivity": {
-        "label": "Coding Activity Coy",
+    "wakatimeActivity": {
+        "label": "Coding Activity",
         "items": [{
             "label": " Activity",
-            "wakaUrl": ""
-        }]
+            "wakaUrl": "https://wakatime.com/share/@puterakahfi/5c7550a6-2b53-4a80-b96f-2e60e9a5fc40.svg"
+        },
+        {
+            "label": " Language",
+            "wakaUrl": "https://wakatime.com/share/@puterakahfi/eb74a86b-3b9b-4068-aaab-95c92b1fe4fb.svg"
+        },
+        {
+            "label": " OS",
+            "wakaUrl": "https://wakatime.com/share/@puterakahfi/2afca832-6e9f-481c-8d0d-7c88152a951d.svg"
+        }
+    ]
     }
 
 }
+

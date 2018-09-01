@@ -12,7 +12,7 @@ import Works from "../organisms/Works";
 
 
 
-import { works, wakatimActivity } from '../profile.json';
+import { works, wakatimeActivity } from '../profile.json';
 
 
 class App extends Component {
@@ -27,7 +27,7 @@ class App extends Component {
               <Works label="Experience" works={works} />
               </Col>
               <Col md="6">
-              <WakatimeActivity wakatimActivity={wakatimActivity} title={wakatimActivity.label} />
+              <WakatimeActivity wakatimeActivity={wakatimeActivity} title={wakatimeActivity.label} />
               </Col>
             </Row>
             
