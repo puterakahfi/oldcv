@@ -1,6 +1,10 @@
 {
 
+    "theme": "default",
+    "themePath": " ../themes",
+
     "basics": {
+        "theme": "default",
         "name": "Putera Kahfi",
         "label": "Web Developer",
         "sublabel": "// <a href='https://en.wikipedia.org/wiki/Web_design'>Web Designer</a> // <a href='https://en.wikipedia.org/wiki/Front-end_web_development' target='_blank'>Frontend</a> // <a href='https://www.techopedia.com/definition/29568/back-end-developer' target='_blank'>Backend</a>",
@@ -117,19 +121,67 @@
     "wakatimeActivity": {
         "label": "Coding Activity",
         "items": [{
-            "label": " Activity",
-            "wakaUrl": "https://wakatime.com/share/@puterakahfi/5c7550a6-2b53-4a80-b96f-2e60e9a5fc40.svg"
-        },
-        {
-            "label": " Language",
-            "wakaUrl": "https://wakatime.com/share/@puterakahfi/eb74a86b-3b9b-4068-aaab-95c92b1fe4fb.svg"
-        },
-        {
-            "label": " OS",
-            "wakaUrl": "https://wakatime.com/share/@puterakahfi/2afca832-6e9f-481c-8d0d-7c88152a951d.svg"
-        }
-    ]
+                "label": " Activity",
+                "wakaUrl": "https://wakatime.com/share/@puterakahfi/5c7550a6-2b53-4a80-b96f-2e60e9a5fc40.svg"
+            },
+            {
+                "label": " Language",
+                "wakaUrl": "https://wakatime.com/share/@puterakahfi/eb74a86b-3b9b-4068-aaab-95c92b1fe4fb.svg"
+            },
+            {
+                "label": " OS",
+                "wakaUrl": "https://wakatime.com/share/@puterakahfi/2afca832-6e9f-481c-8d0d-7c88152a951d.svg"
+            }
+        ]
+    },
+
+    "technologyStack": {
+        "label": "",
+        "items": [{
+                "label": "Symfony",
+                "url": "https://symfony.com",
+                "icon": "symfony.png"
+            },
+            {
+                "label": "Codeigniter",
+                "url": "https://www.codeigniter.com/",
+                "icon": "codeigniter.png"
+            },
+            {
+                "label": "ReactJS",
+                "url": "https://reactjs.org/",
+                "icon": "react.png"
+            },
+            {
+                "label": "Gatsby",
+                "url": "https://www.gatsbyjs.org",
+                "icon": "gatsby.png"
+            },
+            {
+                "label": "VueJS",
+                "url": "https://vuejs.org/",
+                "icon": "vuejs.png"
+            },
+            {
+                "label": "VuePress",
+                "url": "https://vuepress.vuejs.org/",
+                "icon": "vuepress.png"
+            },
+            {
+                "label": "Bootstrap",
+                "url": "https://getbootstrap.com",
+                "icon": "bootstrap.png"
+            },
+            {
+                "label": "SASS",
+                "url": "https://sass-lang.com",
+                "icon": "sass.png"
+            },
+            {
+                "label": "Adobe XD",
+                "url": "https://sass-lang.com",
+                "icon": "adobexd.png"
+            }
+        ]
     }
-
 }
-
