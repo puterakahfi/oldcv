@@ -181,6 +181,11 @@
                 "label": "Adobe XD",
                 "url": "https://sass-lang.com",
                 "icon": "adobexd.png"
+            },
+            {
+                "label": "Docker",
+                "url": "https://www.docker.com/",
+                "icon": "docker.png"
             }
         ]
     }

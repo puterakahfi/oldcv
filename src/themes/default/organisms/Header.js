@@ -19,10 +19,12 @@ class Header extends Component {
             <h1 className="title">{this.props.basics.name}</h1>
 
             <h2>{this.props.basics.label}</h2>
-            <h5 dangerouslySetInnerHTML={{__html: this.props.basics.sublabel}}></h5>
+          <h5 dangerouslySetInnerHTML={{__html: this.props.basics.sublabel}}></h5>
 
             <p id="short-desc">
+            <Typing speed={100}> <span>
             {this.props.basics.summary}
+            </span></Typing>
             </p>
 
             <TechnologyStack technologyStack={this.props.technologyStack} />
