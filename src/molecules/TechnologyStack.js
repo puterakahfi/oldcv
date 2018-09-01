@@ -15,17 +15,13 @@ class TechnologyStack extends Component
       {icon:'laravel.png',url:'https://laravel.com/'},
       {icon:'symfony.png',url:'https://symfony.com/'},
       {icon:'codeigniter.png',url:'https://codeigniter.com/'},
+      {icon:'gatsby.png',url:'https://www.gatsbyjs.org'},
+      {icon:'vuepress.png',url:'https://www.gatsbyjs.org'},
       
     ];
-    this.state = {message: 'Hello!', stack};
-    // This line is important!
-    this.handleHover = this.handleHover.bind(this);
+    this.state = {stack};
   }
 
-
-  handleHover() {
-   // alert(this.state.stack[0].icon);
-  }
 
 
     render()

@@ -5,11 +5,14 @@ import Header from "../organisms/Header";
 import Skillset from "../organisms/Skillset";
 
 import { Container, Row, Col } from 'reactstrap';
-import CodingSnapshot from "../molecules/CodingSnapshot";
+import WakatimeActivity from "../molecules/WakatimeActivity";
 import Footer from "../organisms/Footer";
 import Projects from "../organisms/Projects";
-import Experiences from "../organisms/Experiences";
+import Works from "../organisms/Works";
 
+
+
+import { works, wakatimActivity } from '../profile.json';
 
 
 class App extends Component {
@@ -21,10 +24,10 @@ class App extends Component {
         <Container >
             <Row>
               <Col md="6">
-              <Experiences label="Experience" />
+              <Works label="Experience" works={works} />
               </Col>
               <Col md="6">
-              <CodingSnapshot title="Coding Activity" />
+              <WakatimeActivity wakatimActivity={wakatimActivity} title={wakatimActivity.label} />
               </Col>
             </Row>
             

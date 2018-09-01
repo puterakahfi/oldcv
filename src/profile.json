@@ -8,7 +8,7 @@
         "email": "john@gmail.com",
         "phone": "(912) 555-4321",
         "website": "http://johndoe.com",
-        "summary": "Hi Bro, My name is Putera Kahfi, I am a web developer, Right now i'm on the way to become a front end developer",
+        "summary": "Hi Bro, My name is Putera Kahfi, I am a web developer, Right now i'm on the way to become a fullstack javascript developer",
         "location": {
             "address": "2712 Broadway St",
             "postalCode": "CA 94115",
@@ -23,11 +23,11 @@
         }]
     },
     "works": {
-        "label" : "Experiences coy",
-        "items": [
-            {
-                "company": "PT.Visi Multimedia Aditama",
-                "position": "Web Developer",
+        "label": "Experiences",
+        "items": [{
+                "company": "PT.Mencari Cinta Sejati Cing",
+                "country": "Facebook Land, USA",
+                "position": "Tukang Kepo",
                 "website": "http://company.com",
                 "startDate": "2014",
                 "endDate": "Current",
@@ -37,8 +37,9 @@
                 ]
             },
             {
-                "company": "PT.Gamatechno Indonesia",
+                "company": "PT.Maju Mundur",
                 "position": "Web Developer",
+                "country": "New Zealand",
                 "website": "http://company.com",
                 "startDate": "2010",
                 "endDate": "2013",
@@ -94,9 +95,14 @@
         ]
     }],
     "languages": [{
-        "name": "English",
-        "level": "Native speaker"
-    }],
+            "name": "English",
+            "level": "Native speaker"
+        },
+        {
+            "name": "Bahas Indonesia",
+            "level": "Native speaker"
+        }
+    ],
     "interests": [{
         "name": "Wildlife",
         "keywords": [
@@ -107,6 +113,13 @@
     "references": [{
         "name": "Jane Doe",
         "reference": "Reference..."
-    }]
+    }],
+    "wakatimActivity": {
+        "label": "Coding Activity Coy",
+        "items": [{
+            "label": " Activity",
+            "wakaUrl": ""
+        }]
+    }
 
 }
