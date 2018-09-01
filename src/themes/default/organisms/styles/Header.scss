@@ -1,0 +1,84 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+#header {
+  text-align: center;
+  margin: 50px auto;
+
+  a {
+    color: #7FC984;
+
+    &:hover {
+      transform: scale(3);
+    }
+  }
+
+  #version {
+    position: absolute;
+    left: -50px;
+    font-weight: lighter;
+    -webkit-transform: rotate(-90deg);
+    -ms-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    top: 39px;
+    border-bottom: solid 2px #7FC984;
+    padding: 5px;
+    margin: 0px 5px;
+  }
+
+  #short-desc {
+    margin: 20px 0px;
+  }
+
+  #logo {
+    display: block;
+  }
+
+  .title {
+    font-weight: bold;
+    font-size: 5em;
+    line-height: 70px;
+    margin-bottom: 30px;
+    color: white;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    margin-top: 5px;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: whitesmoke;
+    text-align: center;
+  }
+
+  h5,
+  h6 {
+    font-weight: bold;
+  }
+
+  .no-animation {
+    animation: none;
+  }
+
+  .App-intro {
+    font-size: large;
+  }
+
+  @include media-breakpoint-down(xs) {
+
+    .title {
+      font-size: 4.5em;
+    }
+    #short-desc {
+      margin: 20px 5px;
+    }
+  
+  }
+
+  @include media-breakpoint-down(sm) {}
+
+  @include media-breakpoint-down(md) {}
+
+  @include media-breakpoint-down(lg) {}
+}
