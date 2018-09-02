@@ -5,6 +5,8 @@ import "./styles/Header.css";
 import TechnologyStack from "../molecules/TechnologyStack";
 import Typing from "react-typing-animation/dist/Typing";
 import {Row,Container} from 'reactstrap';
+import LoaderHOC from '../hoc/LoaderHOC'
+
 
 class Header extends Component {
   render() {
@@ -37,4 +39,4 @@ class Header extends Component {
 }
 
 
-export default Header;
+export default LoaderHOC('basics')(Header);

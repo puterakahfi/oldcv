@@ -1,13 +1,13 @@
 import React, { Component } from "react"
 import 'bootstrap/dist/css/bootstrap.min.css'
-import "../App.css"
+import "./App.css"
 import Header from "../organisms/Header"
-import Skillset from "../organisms/Skillset"
+import Skillset from "../skillset/Skillset"
 import { Container, Row, Col } from 'reactstrap'
-import WakatimeActivity from "../molecules/WakatimeActivity"
+import WakatimeActivity from "../wakatimeActivity/WakatimeActivity"
 import Footer from "../organisms/Footer"
 import Projects from "../organisms/Projects"
-import Works from "../organisms/Works"
+import Works from "../works/Works"
 import Particles from 'react-particles-js'
 
 
@@ -19,9 +19,21 @@ var particleStyle = {
 
 
 class App extends Component {
+
+  constructor(props){
+    super(props)
+    this.state = { isLoading:true }
+  }
+  
+
+  componentDidMount() 
+  {  
+    this.setState({isLoading:false})
+  }
+
   render() {
     return (
-      <div className="App">
+      <div className="App" isLoading={this.state.isLoading} >
             <Particles className="particle" style={particleStyle} />
 
         <Header basics={this.props.profile.basics} technologyStack={this.props.profile.technologyStack} /> 
@@ -55,5 +67,6 @@ class App extends Component {
     );
   }
 }
+
 
 export default App;
