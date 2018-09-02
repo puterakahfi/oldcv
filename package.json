@@ -18,6 +18,7 @@
     "react": "^16.4.2",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.4.2",
+    "react-ionicons": "^2.1.6",
     "react-particles-js": "^2.3.0",
     "react-scripts": "1.1.4",
     "react-timeline-scribble": "^1.0.12",

@@ -1,6 +1,7 @@
 import React, {Component, Fragment} from 'react';
 import './Works.css';
 import { Timeline, Event } from "react-timeline-scribble";
+import Ionicon from "react-ionicons";
 
 class Works extends Component
 {

@@ -9,7 +9,7 @@ import Footer from "../organisms/Footer"
 import Projects from "../organisms/Projects"
 import Works from "../works/Works"
 import Particles from 'react-particles-js'
-
+import Awards from '../awards/Awards'
 
 var particleStyle = {
   position: 'absolute',
@@ -46,6 +46,8 @@ class App extends Component {
               <Col md="6">
               <WakatimeActivity wakatimeActivity={this.props.profile.wakatimeActivity} title={this.props.profile.wakatimeActivity.label} />
               <Skillset title="Skillset" skills={this.props.profile.skills} />
+
+              <Awards title="Awards" skills={this.props.profile.skills} />
 
               </Col>
             </Row>
