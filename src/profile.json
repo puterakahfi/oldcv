@@ -147,6 +147,10 @@
                     {
                         "label": "NextJS",
                         "value": 5
+                    },
+                    {
+                        "label": "JQuery",
+                        "value": 30
                     }
                 ]
             },
@@ -190,6 +194,10 @@
                     },
                     {
                         "label": "VIM",
+                        "value": 40
+                    },
+                    {
+                        "label": "Docker",
                         "value": 40
                     }
                 ]

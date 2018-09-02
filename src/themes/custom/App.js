@@ -29,15 +29,14 @@ class App extends Component {
               </Col>
               <Col md="6">
               <WakatimeActivity wakatimeActivity={wakatimeActivity} title={wakatimeActivity.label} />
+              <Skillset title="Skillset" skills={skills} />
+
               </Col>
             </Row>
             
 
              <Row>
-             <Col md="6">
-              <Skillset title="Skillset" skills={skills} />
-              </Col>
-              <Col md="6">
+              <Col md="12">
               <Projects />
               </Col>
             </Row>

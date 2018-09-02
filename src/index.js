@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
-
 import registerServiceWorker from './registerServiceWorker';
-import {theme} from "./profile.json";
-
-import App from './themes/default/App';
+import App from './themes/custom/App';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
