@@ -11,7 +11,7 @@ body {
 }
 
 a {
-  color: #E5B900;
+  color: #8F9CB2;
 }
 
 
@@ -79,7 +79,8 @@ a {
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fc984', endColorstr='#0a7681', GradientType=1);
     /* IE6-9 fallback on horizontal gradient */
-    background: #629AFF;
+    background: #5A95FC;
+    box-shadow: 0 1px 3px rgba(0,0,0,.1);
 
     &:hover {
       transform: scale(1);
