@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import registerServiceWorker from './registerServiceWorker';
-import App from './themes/custom/App';
+import App from './themes/default/layouts/App';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import * as Profile from './profile.json';
+
+
+ReactDOM.render(<App  theme={Profile.theme} profile={Profile} />, document.getElementById('root'));
 registerServiceWorker();

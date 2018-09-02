@@ -41,6 +41,18 @@
                 ]
             },
             {
+                "company": "PT.Technophoria Indonesia",
+                "position": "Web Development Instructure",
+                "country": "Yogyakarta, Indonesia",
+                "website": "http://company.com",
+                "startDate": "2014",
+                "endDate": "2015",
+                "summary": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+                "highlights": [
+                    "Started the company"
+                ]
+            },
+            {
                 "company": "PT.Gamatechno Indonesia",
                 "position": "Web Developer",
                 "country": "Yogyakarta, Indonesia",
@@ -52,6 +64,7 @@
                     "Started the company"
                 ]
             }
+           
         ]
     },
     "volunteer": [{
@@ -232,7 +245,7 @@
             },
             {
                 "label": " Language",
-                "wakaUrl": "https://wakatime.com/share/@puterakahfi/eb74a86b-3b9b-4068-aaab-95c92b1fe4fb.svg"
+                "wakaUrl": "https://wakatime.com/share/@puterakahfi/09f8c884-f245-40f3-bef2-7e5ee7c1eb89.svg"
             },
             {
                 "label": " OS",
