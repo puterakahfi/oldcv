@@ -193,7 +193,7 @@
                         "value": 40
                     }
                 ]
-            },
+            }
         ]
     },
     "languages": [{
@@ -219,8 +219,8 @@
     "wakatimeActivity": {
         "label": "Coding Activity",
         "items": [{
-                "label": " Activity",
-                "wakaUrl": "https://wakatime.com/share/@puterakahfi/5c7550a6-2b53-4a80-b96f-2e60e9a5fc40.svg"
+                "label": " Activity 30 days",
+                "wakaUrl": "https://wakatime.com/share/@puterakahfi/a3c7e75d-16b0-4405-b580-011f7e927f09.svg"
             },
             {
                 "label": " Language",
@@ -228,7 +228,7 @@
             },
             {
                 "label": " OS",
-                "wakaUrl": "https://wakatime.com/share/@puterakahfi/2afca832-6e9f-481c-8d0d-7c88152a951d.svg"
+                "wakaUrl": "https://wakatime.com/share/@puterakahfi/b9fb15ed-5b82-4cab-a026-288e15ff9f59.svg"
             }
         ]
     },
