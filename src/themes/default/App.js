@@ -10,7 +10,7 @@ import Footer from "./organisms/Footer";
 import Projects from "./organisms/Projects";
 import Works from "./organisms/Works";
 
-import { theme, works, wakatimeActivity, basics, technologyStack} from '../../profile.json';
+import { theme, works, wakatimeActivity, basics, technologyStack, skills } from '../../profile.json';
 
 
 
@@ -33,7 +33,7 @@ class App extends Component {
 
              <Row>
              <Col md="6">
-              <Skillset title="Skillset" />
+              <Skillset title="Skillset" skills={skills} />
               </Col>
               <Col md="6">
               <Projects />

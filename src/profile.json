@@ -77,9 +77,9 @@
         ]
     }],
     "awards": [{
-        "title": "Award",
+        "title": "Gamatechno CDP Program",
         "date": "2014-11-01",
-        "awarder": "Company",
+        "awarder": "PT.Gamatechno Indonesia",
         "summary": "There is no spoon."
     }],
     "publications": [{
@@ -89,21 +89,119 @@
         "website": "http://publication.com",
         "summary": "Description..."
     }],
-    "skills": [{
-        "name": "Web Development",
-        "level": "Master",
-        "keywords": [
-            "HTML",
-            "CSS",
-            "Javascript"
+    "skills": {
+        "items": [{
+                "name": "Basic",
+                "level": "Master",
+                "keywords": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "items": [{
+                        "label": "PHP",
+                        "value": 50
+                    },
+                    {
+                        "label": "Javascript",
+                        "value": 40
+                    },
+                    {
+                        "label": "HTML",
+                        "value": 60
+                    },
+                    {
+                        "label": "CSS",
+                        "value": 60
+                    }
+                ]
+            },
+            {
+                "name": "Javascripts",
+                "level": "Master",
+                "keywords": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "items": [{
+                        "label": "React",
+                        "value": 20
+                    },
+                    {
+                        "label": "VueJS",
+                        "value": 20
+                    },
+                    {
+                        "label": "Gatsby",
+                        "value": 5
+                    },
+                    {
+                        "label": "Vuepress",
+                        "value": 5
+                    },
+                    {
+                        "label": "NuxtJS",
+                        "value": 5
+                    },
+                    {
+                        "label": "NextJS",
+                        "value": 5
+                    }
+                ]
+            },
+            {
+                "name": "PHP",
+                "level": "Master",
+                "keywords": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "items": [{
+                        "label": "Symfony",
+                        "value": 50
+                    },
+                    {
+                        "label": "Laravel",
+                        "value": 20
+                    },
+                    {
+                        "label": "Codeigniter",
+                        "value": 40
+                    }
+                ]
+            },
+            {
+                "name": "Development Tools",
+                "level": "Master",
+                "keywords": [
+                    "HTML",
+                    "CSS",
+                    "Javascript"
+                ],
+                "items": [{
+                        "label": "Git",
+                        "value": 50
+                    },
+                    {
+                        "label": "SVN",
+                        "value": 20
+                    },
+                    {
+                        "label": "VIM",
+                        "value": 40
+                    }
+                ]
+            },
         ]
-    }],
+    },
     "languages": [{
             "name": "English",
             "level": "Native speaker"
         },
         {
-            "name": "Bahas Indonesia",
+            "name": "Bahasa Indonesia",
             "level": "Native speaker"
         }
     ],

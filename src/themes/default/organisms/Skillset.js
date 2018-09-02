@@ -1,8 +1,8 @@
-import React, { Component } from "react";
-import './styles/Skillset.css';
+import React, { Component } from "react"
+import './styles/Skillset.css'
 import { Progress, TabContent, TabPane, Nav, NavItem, NavLink, Card, Button, CardTitle, CardText, Row, Col } from 'reactstrap';
-import classnames from 'classnames';
-import SkillsetBar from '../molecules/SkillsetBar';
+import classnames from 'classnames'
+import SkillsetBar from '../molecules/SkillsetBar'
 
 class Skillset extends Component {
 
@@ -11,7 +11,7 @@ class Skillset extends Component {
 
     this.toggle = this.toggle.bind(this);
     this.state = {
-      activeTab: '1',
+      activeTab: 0,
     };
   }
 
@@ -27,78 +27,71 @@ class Skillset extends Component {
     return (
       <div className="section" id="skillset">
       <hr className="section-hr"/>
+
        <h2> 
-                     <span>{this.props.title}</span>
-                </h2> 
-                <hr />
-
-           <Nav tabs>
-          <NavItem>
-            <NavLink
-              className={classnames({ active: this.state.activeTab === '1' })}
-              onClick={() => { this.toggle('1'); }}
-            >
-              Basic
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              className={classnames({ active: this.state.activeTab === '2' })}
-              onClick={() => { this.toggle('2'); }}
-            >
-              Tools
-            </NavLink>
-          </NavItem>
-          <NavItem>
-            <NavLink
-              className={classnames({ active: this.state.activeTab === '3' })}
-              onClick={() => { this.toggle('3'); }}
-            >
-              Frameworks and libraries
-            </NavLink>
-          </NavItem>
-        </Nav>
-
-        <TabContent activeTab={this.state.activeTab}>
-          <TabPane tabId="1">
-            <Row>
-              <Col sm="12">
-              <SkillsetBar value="60" label="PHP" />
-              <SkillsetBar value="60" label="HTML"/>
-              <SkillsetBar value="60" label="CSS" />
-              <SkillsetBar value="60" label="Javascript"/>
-              </Col>
-            </Row>
-          </TabPane>
-          <TabPane tabId="2">
-            <Row>
-              <Col sm="12">
-              <SkillsetBar value="50" label="Git" />
-              <SkillsetBar value="50" label="SVN" />
-              <SkillsetBar value="50" label="Docker" />
-
-              </Col>
-            </Row>
-          </TabPane>
-
-           <TabPane tabId="3">
-            <Row>
-              <Col sm="12">
-              <SkillsetBar value="60" label="Symfony" />
-              <SkillsetBar value="40" label="Codeigniter" />
-              <SkillsetBar value="20" label="Laravel" />
-              <SkillsetBar value="50" label="CSS Bootstrap" />
-              <SkillsetBar value="5" label="ReactJS" />
-              <SkillsetBar value="8" label="VueJS" />
-              </Col>
-            </Row>
-          </TabPane>
-        </TabContent>
-        
-
+          <span>{this.props.title}</span></h2> <hr />
+           <SkillTabs activeTab={this.state.activeTab}  toggle={this.toggle} skills={this.props.skills} />
+           <SkillSetContent activeTab={this.state.activeTab} skills={this.props.skills } />
       </div>
     );
   }
 }
+
+
+// Functional component
+const SkillTabs = (props) => {
+  const itemsss = props.skills.items.map((item, index)=>
+  <NavItem>
+  <NavLink
+    className={classnames({ active: props.activeTab === index })}
+    onClick={() => { props.toggle(index); }}>
+    {item.name}
+  </NavLink>
+  </NavItem>
+)
+
+  return (   
+    <Nav tabs>
+      {itemsss}
+    </Nav>
+  )
+}
+
+
+const SkillSetBarItems = (props) => {
+  let bars = ""
+  if(typeof(props.items)==="object"){
+     bars = props.items.map((item,index) => <SkillsetBar value={item.value} label={item.label} />)
+  }else{
+    bars = ""
+  }
+
+  return(<span>{bars}</span>)
+}
+
+// Functional component
+const SkillSetContent = (props) => {
+
+  const itemsss = props.skills.items.map((item, index)=>
+
+  <TabPane tabId={index}>
+    <Row>
+      <Col sm="12" >
+      
+      <SkillSetBarItems items={item.items} />
+      </Col>
+    </Row>
+  </TabPane>
+)
+
+  return (
+   
+    <TabContent activeTab={props.activeTab}>
+    {itemsss}
+  </TabContent>
+  )
+}
+
+
 
 export default Skillset;

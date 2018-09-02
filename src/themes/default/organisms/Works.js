@@ -14,7 +14,7 @@ class Works extends Component
       const listItems = this.props.works.items.map((item) =>
             <Event interval={item.startDate+" - "+item.endDate} title={item.company} subtitle={item.country}>
             <h5> {item.position}</h5>
-            {item.summary}
+           <p> {item.summary}</p>
             <hr/>
           </Event>
     )

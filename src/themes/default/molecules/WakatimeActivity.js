@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
-import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap';
-import classnames from 'classnames';
+import React, {Component} from 'react'
+import { TabContent, TabPane, Nav, NavItem, NavLink, Row, Col } from 'reactstrap'
+import classnames from 'classnames'
 
-import './styles/WakatimeActivity.css';
+import './styles/WakatimeActivity.css'
 
 class WakatimeActivity extends Component{
 
@@ -12,7 +12,7 @@ class WakatimeActivity extends Component{
         this.state = {
             activeTab:0,
             loading: false,
-            content:"",   
+            content:""  
         };
 
         this.toggle = this.toggle.bind(this);
@@ -53,15 +53,6 @@ class WakatimeActivity extends Component{
       }
 }
 
-
-
-
-function toggle(activeTab, tab) {
-  if (activeTab !== tab) {
-      activeTab = tab
-  }
-  return activeTab;
-}
 
 // Functional component
 const WakatimeTabs = (props) => {
