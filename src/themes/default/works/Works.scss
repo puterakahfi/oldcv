@@ -1,0 +1,156 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+#experiences {
+    text-align: left;
+    left: 2em;
+
+    h3,
+    h5 {
+        font-weight: bold;
+    }
+
+    .css-692fgp {
+        color: black;
+        background-color: white;
+        -webkit-box-shadow: inset 0 0 0 0em #ef795a;
+        box-shadow: inset 0 0 0 0em #ef795a;
+        display: inline-block;
+        margin-bottom: .8em;
+        padding: 0.2em .8em 0.2em .8em;
+        font-size: .8em;
+        font-weight: bolder;
+    }
+
+    .css-1id2lqt::before {
+        background-color: rgb(255, 255, 255);
+        content: '';
+        margin-left: -1px;
+        position: absolute;
+        top: 10px;
+        left: 2em;
+        width: 2px;
+        height: 100%;
+    }
+
+    .css-vcfpfv {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        background-color: rgb(255, 255, 255);
+        outline: 0px solid #121327;
+        display: block;
+        margin: 0.5em 0.5em 0.5em -0.5em;
+        position: absolute;
+        top: 0;
+        left: 2em;
+        width: 1em;
+        height: 1em;
+        -moz-outline-radius: 10px;
+    }
+
+    @include media-breakpoint-down(xs) {
+        .css-1tr4ugw {
+            left: 3em;
+
+            h3 {
+                font-size: 2em;
+                font-weight: bold;
+                line-height: 0.9em;
+                margin-bottom: 5px;
+            }
+
+            h4 {
+                font-size: 1em;
+                margin-bottom: .1em;
+            }
+
+            h5 {
+                font-size: 1.3em;
+                margin-bottom: .9em;
+            }
+
+            p {
+                font-size: .7em;
+            }
+        }
+
+        .css-7mkrez p {
+            font-size: .8em;
+            text-align:left;
+            padding-bottom: 1.2em;
+        }
+    }
+
+    @include media-breakpoint-up(sm) {
+        .css-1tr4ugw {
+            h3 {
+                font-size: 2.5em;
+                font-weight: bold;
+                line-height: 0.9em;
+                margin-bottom: 5px;
+            }
+
+            h4 {
+                font-size: 1.5em;
+                margin-bottom: .1em;
+            }
+
+            h5 {
+                font-size: 1.5em;
+                margin-bottom: .9em;
+            }
+        }
+    }
+
+    @include media-breakpoint-up(md) {
+        html {
+            font-size: 1.4rem;
+        }
+    }
+
+    @include media-breakpoint-up(lg) {
+        .css-1tr4ugw {
+            h3 {
+                font-size: 5em;
+                font-weight: bold;
+                line-height: 0.9em;
+                margin-bottom: 5px;
+            }
+
+            h4 {
+                font-size: 1.4em;
+                margin-bottom: .2em;
+                font-weight: lighter;
+            }
+
+            h5 {
+                font-size: 1.3em;
+                margin-bottom: 1.2em;
+                font-weight: bold;
+            }
+        }
+
+        .css-1tr4ugw {
+            h3 {
+                font-size: 2.5em;
+                font-weight: bold;
+                line-height: 0.9em;
+                margin-bottom: 5px;
+            }
+
+            h4 {
+                font-size: 1.4em;
+                margin-bottom: .2em;
+                font-weight: lighter;
+            }
+
+            h5 {
+                font-size: 1.3em;
+                margin-bottom: 1.2em;
+                font-weight: bold;
+            }
+        }
+    }
+}
