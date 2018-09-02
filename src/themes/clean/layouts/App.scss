@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:300,400,700" rel="stylesheet');
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  background: #FFFFFF;
+  color: #4D5060;
+  background: #F6F8FC;
+}
+
+a {
+  color: #E5B900;
+}
+
+
+
+.App {
+  text-align: center;
+}
+
+.section {
+  //border:solid .5px white;
+  padding: 5px;
+  margin: 5px;
+
+  .section-hr {
+    width: 82px;
+    color: dotted;
+    border-width: 2px;
+    text-align: left;
+    margin-left: 0px;
+    margin-bottom: 5px;
+  }
+
+  hr{
+    border-top: 1px solid #eff1f5;
+  }
+
+  h2 {
+    text-align: left;
+    font-weight: bold;
+  }
+
+  .nav-tabs {
+    border-bottom: none;
+  }
+
+  .nav-tabs .nav-link {
+    border-radius: 77px;
+    border: none;
+    border-bottom: 3px;
+    background: transparent;
+    /* border: solid 1px; */
+    padding: 5px 10px;
+    margin: 0px 5px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  .nav-tabs .nav-item.show .nav-link,
+  .nav-tabs .nav-link.active {
+    color: white;
+    background-color: #629AFF;
+    border: solid 1px #14b3fb;
+    border: none;
+    /* border-color: #dee2e6 #dee2e6 #fff; */
+    border-radius: 1px;
+    background: #7fc984;
+    /* Old browsers */
+    background: -moz-linear-gradient(-45deg, #7fc984 0%, #109396 44%, #0a7681 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, #7fc984 0%, #109396 44%, #0a7681 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, #7fc984 0%, #109396 44%, #0a7681 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7fc984', endColorstr='#0a7681', GradientType=1);
+    /* IE6-9 fallback on horizontal gradient */
+    background: #629AFF;
+
+    &:hover {
+      transform: scale(1);
+    }
+  }
+
+  .tab-content {
+    padding: 15px 0px;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+    @include media-breakpoint-down(xs) {
+      .nav-tabs .nav-link {
+        font-size: .9em;
+      }
+    }
+
+    @include media-breakpoint-down(sm) {
+      .nav-tabs .nav-link {
+        font-size: .9em;
+      }
+    }
+
+    @include media-breakpoint-up(md) {
+      .nav-tabs .nav-link {
+        font-size: .9em;
+      }
+    }
+
+    @include media-breakpoint-up(lg) {
+      .nav-tabs .nav-link {
+        font-size: .9em;
+      }
+    }
+
+}

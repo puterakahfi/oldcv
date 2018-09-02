@@ -1,0 +1,62 @@
+#skillset {
+  margin: 0px 0px;
+  text-align: left;
+  background:#F9FAFB;
+
+    display: inline-block;
+    box-shadow: 0 0 2rem rgba(0,0,0,.1);
+    width: 100%;
+    transition: box-shadow 420ms cubic-bezier(.165,.84,.44,1);
+    position: relative;
+    padding: 1.5rem;
+    z-index: 1;
+    background-color: #fff;
+    margin-bottom: 1rem;
+  
+
+  .progress {
+    border-radius: 0px;
+  }
+
+  img {
+    height: 50px;
+    float: left;
+  }
+
+  .skill-item {
+    margin: 10px auto;
+  }
+
+  .nav-tabs {
+    border-bottom: none;
+
+    &:first {
+      margin-left: 3000px;
+    }
+  }
+
+  .progress {
+    background: #F3F5F9;
+  }
+
+  .progress-bar {
+    border-radius: 1px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#7fc984+0,0e7884+44,5c097c+100 */
+    background: #52B38B;
+    margin: 4px;
+    border-radius: 0px 5px 5px 0px;
+    -moz-border-radius: 0px 5px 5px 0px;
+    -webkit-border-radius: 0px 5px 5px 0px;
+  }
+
+  .skillset-bar {
+    margin: 20px 0px;
+
+    h6 {
+      color:#B4B4BC;
+      font-size: .8em;
+      margin-left: 3px;
+      margin-bottom: 0px;
+    }
+  }
+}
